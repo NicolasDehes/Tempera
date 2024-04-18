@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Convertisseur de Température</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <div id="banner" class="banner" hidden role="alert">
+    <div class="banner-content">
+      <h2>Télécharger l'app</h2>
+      <p>
+        Pourquoi pas profiter de l'application hors ligne ?
+      </p>
+      <div class="banner-buttons">
+        <button class="banner-button yes-button" id="install-button">Yes, Install</button>
+        <button class="banner-button no-button" id="cancel-button">No, Thanks</button>
+      </div>
+    </div>
+  </div>
+  <div class="converter-wrapper">
+    <div>
+      <label for="temperature">Température</label>
+      <input type="number" id="temperature" value="0" />
+    </div>
+    <div>
+      <label for="from">de</label>
+      <select id="from">
+        <option value="Celsius" selected>Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+      </select>
+    </div>
+    <div>
+      <label for="to">à</label><br />
+      <select id="to">
+        <option value="Celsius" selected>Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+      </select>
+    </div>
+    <div class="result">
+      <span id="result">0°C</span>
+    </div>
+  </div>
+  <script src="js/scripts.js"></script>
+  <script src="js/converter.js"></script>
+</body>
+</html>

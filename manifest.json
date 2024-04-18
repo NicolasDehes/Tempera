@@ -1,0 +1,30 @@
+{
+    "name": "Tempera Converter",
+    "short_name": "Tempera",
+    "description": "Chaud? Froid? J'en sais rien mais je peux le dire en differentes températures.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/images/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "scope": "/",
+    "serviceWorker": {
+        "src": "/sw.js"
+    },
+    "splash_pages": null,
+    "orientation": "portrait",
+    "custom": [],
+    "lang": "fr",
+    "dir": "ltr",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "categories": [],
+    "iarc_rating_id": null,
+    "screenshots": []
+}
